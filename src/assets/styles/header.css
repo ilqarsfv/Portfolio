@@ -1,23 +1,38 @@
-.headerMenu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0px;
+.headerMenuDesc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
 }
-.headerMenu ul {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+.headerMenuDesc ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
-.headerMenu a {
-    color: #000;
+.headerMenuDesc a {
+  color: #000;
 }
 .logo {
-    font-size: 22px;
+  font-size: 22px;
 }
 #header {
-    position: sticky;
-    top: 0;
-    border-bottom: 1px solid #3331;
-    background: #fff9;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+}
+#gradient-cover {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .headerMenuDesc {
+    display: none;
+  }
+  #gradient-cover {
+    display: none;
+  }
 }

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ilqarsfv.github.io/Portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -33,6 +34,5 @@
     "gh-pages": "^6.2.0",
     "globals": "^15.12.0",
     "vite": "^6.0.1"
-  },
-  "homepage": "https://ilqarsfv.github.io/Portfolio"
+  }
 }

@@ -26,7 +26,7 @@ const handleSubmit = (e) => {
   };
 function Contact() {
   return (
-    <div>
+    <>
       <section>
         <div id="contact">
           <Container maxWidth="lg">
@@ -66,7 +66,7 @@ function Contact() {
           </Container>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 

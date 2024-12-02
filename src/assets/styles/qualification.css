@@ -67,3 +67,17 @@
 .active {
   display: flex;
 }
+@media only screen and (max-width: 768px) {
+  .dataTitle {
+    text-align: center;
+  }
+  .quaLine {
+    display: none;
+  }
+  .qualContent {
+    flex-direction: column;
+  }
+  .qualificationWrapper h2 {
+    margin-top: 40px;
+  }
+}

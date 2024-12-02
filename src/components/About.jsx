@@ -11,6 +11,7 @@ function About() {
           <h2>Haqqımda</h2>
           <div className="row">
             <div className="aboutLeft">
+              <h3>Mən, İlqar Sofiyev</h3>
               <p>
                 Frontend developer olaraq, istifadəçilərin rahatlığına əsaslanan
                 interfeys (UI/UX) dizaynı üzərində işləyirəm. İllərin

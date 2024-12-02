@@ -46,6 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .mainRight {
   display: flex;
@@ -84,4 +85,39 @@
   box-shadow: 0px 0px 10px #C5D3E8;
   margin-right: 20px;
   color: #445069;
+}
+@media only screen and (max-width: 768px) {
+  .socialsWrapperMain {
+    margin-top: 30px;
+  }
+  .mainDescription {
+    width: 100%;
+  }
+  .contactMainWrapper {
+    display: flex;
+    align-items: center;
+  }
+  .contactMainWrapper a {
+    font-size: 14px;
+  }
+  #main {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 0px;
+  }
+  .mainRight {
+    height: 350px;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .socialsWrapperMain a {
+    width: 50px;
+    height: 50px;
+  }
+  #main .row {
+    flex-direction: column-reverse;
+  }
+  .mainLeft {
+    margin-top: 30px;
+  }
 }

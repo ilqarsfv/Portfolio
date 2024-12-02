@@ -86,3 +86,20 @@
 #contact .row {
   align-items: initial;
 }
+@media only screen and (max-width: 768px) {
+  .contactsWrapper {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contactCard {
+    width: 100%;
+  }
+  .contactForm {
+    width: 100%;
+  } 
+  .contactForm input,
+  .contactForm textarea {
+    padding: 20px;
+    box-shadow: 0px 0px 1px #0004;
+  }
+}

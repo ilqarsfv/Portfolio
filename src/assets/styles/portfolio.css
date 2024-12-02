@@ -6,7 +6,6 @@
   margin-bottom: 40px;
 }
 .portWrapper .row {
-    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
@@ -15,6 +14,7 @@
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 22px #3335;
+    color: #000;
 }
 .portCardContent {
     margin-top: 25px;
@@ -29,11 +29,16 @@
     height: 200px;
     border-radius: 15px;
 }
-.portCardContent a {
+.portCardContent span {
     font-size: 15px;
     color: #9BABB8;
     transition: all .3s ease-in-out;
 }
 .portCardContent a:hover {
     color: #675D50;   
+}
+@media only screen and (max-width: 768px) {
+    .portCard {
+        width: 100%;
+    }
 }
