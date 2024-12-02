@@ -33,7 +33,7 @@ function Contact() {
             <h2>Əlaqə</h2>
             <div className="row">
               <div className="contactsWrapper">
-                <a href="" className="contactCard">
+                <a href="mailto:ilqar.sofiyev.95@gmail.com" className="contactCard">
                   <p className="contactIcon">
                     <IoIosMail />
                   </p>
@@ -43,7 +43,7 @@ function Contact() {
                     Mənə yaz <MdOutlineArrowRightAlt />
                   </p>
                 </a>
-                <a href="" className="contactCard">
+                <a href="https://wa.me/+994508004472" className="contactCard">
                   <p className="contactIcon">
                     <IoLogoWhatsapp />
                   </p>
