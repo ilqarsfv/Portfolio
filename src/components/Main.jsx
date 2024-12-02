@@ -7,7 +7,52 @@ import { LuGithub } from "react-icons/lu";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 function Main() {
+  const nameRef = useRef(null);
+  const dev = useRef(null);
+  const description = useRef(null);
+  const socialButtons = useRef(null);
+  const img = useRef(null)
+  const socialWrapper = useRef(null)
+  useEffect(() => {
+    gsap.from(nameRef.current, {
+      x: -100,
+      opacity: 0,
+      duration: 1,
+    });
+    gsap.from(dev.current, {
+      x: -100,
+      opacity: 0,
+      duration: 1.5,
+    });
+    gsap.from(description.current, {
+      x: -100,
+      opacity: 0,
+      duration: 1,
+      delay: 0.5,
+    });
+    gsap.from(socialButtons.current, {
+      x: -50,
+      opacity: 0,
+      duration: 1,
+      delay: 1,
+    });
+    gsap.from(img.current, {
+      scale: 0,
+      opacity: 0,
+      duration: 1,
+      delay: 0.5,
+    });
+    gsap.from(socialWrapper.current.children, {
+      scale: 0,
+      opacity: 0,
+      duration: 1,
+      stagger: 0.3
+    });
+  }, []);
+
   const [text] = useTypewriter({
     words: ["Web Developer"],
     loop: {},
@@ -17,26 +62,28 @@ function Main() {
       <Container maxWidth="lg">
         <div className="row">
           <div className="mainLeft">
-            <span className="name">İlqar Sofiyev</span>
-            <p className="typedWriter">
+            <span ref={nameRef} className="name">
+              İlqar Sofiyev
+            </span>
+            <p className="typedWriter" ref={dev}>
               <span className="typedText">{text}</span>
               <span style={{ color: "#86D293" }}>
                 <Cursor />
               </span>
             </p>
-            <p className="mainDescription">
+            <p className="mainDescription" ref={description}>
               Hər klikdə həm estetiklik, həm də funksionallıq təqdim edib,
               istifadəçi təcrübəsini sənətə çevirək!
             </p>
-            <div className="contactMainWrapper">
-              <a className="mainContBtn" href="">
+            <div ref={socialButtons} className="contactMainWrapper">
+              <a className="mainContBtn" href="#contact">
                 Əlaqə saxla
               </a>
               <a className="downloadCv" href={cv} download="cv">
                 CV yüklə <FaRegFilePdf />
               </a>
             </div>
-            <div className="socialsWrapperMain">
+            <div ref={socialWrapper} className="socialsWrapperMain">
               <a href="https://github.com/ilqarsfv" target="_blank">
                 <LuGithub />
               </a>
@@ -54,7 +101,7 @@ function Main() {
               </a>
             </div>
           </div>
-          <div className="mainRight"></div>
+          <div ref={img} className="mainRight"></div>
         </div>
       </Container>
     </div>

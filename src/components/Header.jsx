@@ -1,7 +1,16 @@
 import "../assets/styles/header.css";
 import Container from "@mui/material/Container";
-
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 function Header() {
+  const header = useRef(null);
+
+  useEffect(() => {
+    gsap.from(header.current, {
+      opacity: 0,
+      duration: 2,
+    });
+  }, []);
   return (
     <>
       <div id="gradient-cover">
@@ -70,7 +79,7 @@ function Header() {
           </defs>
         </svg>
       </div>
-      <div id="header">
+      <div ref={header} id="header">
         <Container maxWidth="lg">
           <nav className="container">
             <ul className="headerMenuDesc">
