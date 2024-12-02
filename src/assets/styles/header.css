@@ -1,0 +1,23 @@
+.headerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.headerMenu ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.headerMenu a {
+    color: #000;
+}
+.logo {
+    font-size: 22px;
+}
+#header {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #3331;
+    background: #fff9;
+}

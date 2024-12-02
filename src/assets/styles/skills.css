@@ -1,0 +1,44 @@
+.skills h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #222831;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+.techSkills {
+    width: 49%;
+    box-shadow: 0px 0px 10px #3335;
+    padding: 40px 70px;
+    border-radius: 15px;
+}
+.techSkills h4 {
+    font-size: 24px;
+    text-align: center;
+}
+.allSkills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.allSkills .skill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.allSkills .skill span:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+}
+.allSkills .skill span:nth-of-type(1) span{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.allSkills .skill span:nth-of-type(2) {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 27px;
+    font-size: 14px;
+    color: #3339;
+}
