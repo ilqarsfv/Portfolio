@@ -10,12 +10,13 @@ import { FaWhatsapp } from "react-icons/fa";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 function Main() {
+  
   const nameRef = useRef(null);
   const dev = useRef(null);
   const description = useRef(null);
   const socialButtons = useRef(null);
-  const img = useRef(null)
-  const socialWrapper = useRef(null)
+  const img = useRef(null);
+  const socialWrapper = useRef(null);
   useEffect(() => {
     gsap.from(nameRef.current, {
       x: -100,
@@ -49,7 +50,7 @@ function Main() {
       scale: 0,
       opacity: 0,
       duration: 1,
-      stagger: 0.3
+      stagger: 0.3,
     });
   }, []);
 
