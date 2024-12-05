@@ -95,6 +95,7 @@ function Qualification() {
                 <span className="qualField">Menecer</span>
                 <span className="dataTime">2021</span>
               </div>
+              <span className="quaLine"></span>
               <div className="qualData">
                 <span className="dataTitle">Div Academy</span>
                 <span className="qualField">Mentor</span>
