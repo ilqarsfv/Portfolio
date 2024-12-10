@@ -7,9 +7,11 @@ import Main from "./components/Main";
 import Portfolio from "./components/Portfolio";
 import Qualification from "./components/Qualification";
 import Skills from "./components/Skills";
+import Snow from "./components/Snow";
 function App() {
   return (
     <>
+      <Snow/>
       <Header />
       <Main />
       <About />

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,5 +9,18 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="/src/assets/js/snowstorm.js"></script>
+    <script>
+      snowStorm.snowColor = "#fff";
+      snowStorm.flakesMaxActive = 90;
+      snowStorm.useTwinkleEffect = true;
+      snowStorm.usePositionFixed = true;
+      snowStorm.autoStart = true;
+      snowStorm.animationInterval = 50;
+      snowStorm.flakesMax = 128;
+      snowStorm.followMouse = false;
+      snowStorm.freezeOnBlur = true;
+      snowStorm.vMaxX = 0;
+    </script>
   </body>
 </html>
