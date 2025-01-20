@@ -5,6 +5,7 @@ import skywash from "../../public/images/skywash.png";
 import srconstruction from "../../public/images/srconstruction.png";
 import amazontravel from "../../public/images/amazontravel.png";
 import integro from "../../public/images/integro.png";
+import dayun from "../../public/images/dayun.png";
 import Container from "@mui/material/Container";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -107,6 +108,19 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>integrogroup.az</h4>
+                <span>Get</span>
+              </div>
+            </a>
+            <a
+              href="https://dayun.az/"
+              target="_blank"
+              className="portCard"
+            >
+              <div className="portCardImg">
+                <img src={dayun} alt="portfolio" />
+              </div>
+              <div className="portCardContent">
+                <h4>dayun.az</h4>
                 <span>Get</span>
               </div>
             </a>
