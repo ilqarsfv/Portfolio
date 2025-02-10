@@ -6,6 +6,7 @@ import srconstruction from "../../public/images/srconstruction.png";
 import amazontravel from "../../public/images/amazontravel.png";
 import integro from "../../public/images/integro.png";
 import dayun from "../../public/images/dayun.png";
+import silo from "../../public/images/silo.png";
 import Container from "@mui/material/Container";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -121,6 +122,19 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>dayun.az</h4>
+                <span>Get</span>
+              </div>
+            </a>
+            <a
+              href="https://siloconstruction.az/"
+              target="_blank"
+              className="portCard"
+            >
+              <div className="portCardImg">
+                <img src={silo} alt="portfolio" />
+              </div>
+              <div className="portCardContent">
+                <h4>siloconstruction.az</h4>
                 <span>Get</span>
               </div>
             </a>
