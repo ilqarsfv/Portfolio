@@ -8,6 +8,9 @@ import integro from "../../public/images/integro.png";
 import dayun from "../../public/images/dayun.png";
 import silo from "../../public/images/silo.png";
 import korex from "../../public/images/korex.png";
+import neo from "../../public/images/neo.png";
+import autopodzakaz from "../../public/images/autopodzakaz.png";
+import connect from "../../public/images/connect.png";
 import Container from "@mui/material/Container";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -149,6 +152,45 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>korexrus.ru</h4>
+                <span>Daha ətraflı</span>
+              </div>
+            </a>
+            <a
+              href="https://neo-rus.ru/"
+              target="_blank"
+              className="portCard"
+            >
+              <div className="portCardImg">
+                <img src={neo} alt="portfolio" />
+              </div>
+              <div className="portCardContent">
+                <h4>neo-rus.ru</h4>
+                <span>Daha ətraflı</span>
+              </div>
+            </a>
+            <a
+              href="https://autopodzakaz.com/"
+              target="_blank"
+              className="portCard"
+            >
+              <div className="portCardImg">
+                <img src={autopodzakaz} alt="portfolio" />
+              </div>
+              <div className="portCardContent">
+                <h4>autopodzakaz.com</h4>
+                <span>Daha ətraflı</span>
+              </div>
+            </a>
+            <a
+              href="https://connect.az/"
+              target="_blank"
+              className="portCard"
+            >
+              <div className="portCardImg">
+                <img src={connect} alt="portfolio" />
+              </div>
+              <div className="portCardContent">
+                <h4>connect.az</h4>
                 <span>Daha ətraflı</span>
               </div>
             </a>
