@@ -48,7 +48,7 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>btk.az</h4>
-                <span>Get</span>
+                <span>Daha ətraflı</span>
               </div>
             </a>
             <a
@@ -61,7 +61,7 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>konturreklam.az</h4>
-                <span>Get</span>
+                <span>Daha ətraflı</span>
               </div>
             </a>
             <a href="https://skywash.az/" target="_blank" className="portCard">
@@ -70,7 +70,7 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>skywash.az</h4>
-                <span>Get</span>
+                <span>Daha ətraflı</span>
               </div>
             </a>
             <a
@@ -83,7 +83,7 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>srconstruction.az</h4>
-                <span>Get</span>
+                <span>Daha ətraflı</span>
               </div>
             </a>
             <a
@@ -96,7 +96,7 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>amazontravel.az</h4>
-                <span>Get</span>
+                <span>Daha ətraflı</span>
               </div>
             </a>
             <a
@@ -109,7 +109,7 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>integrogroup.az</h4>
-                <span>Get</span>
+                <span>Daha ətraflı</span>
               </div>
             </a>
             <a
@@ -122,7 +122,7 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>dayun.az</h4>
-                <span>Get</span>
+                <span>Daha ətraflı</span>
               </div>
             </a>
             <a
@@ -135,7 +135,20 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>siloconstruction.az</h4>
-                <span>Get</span>
+                <span>Daha ətraflı</span>
+              </div>
+            </a>
+            <a
+              href="https://korexrus.ru/"
+              target="_blank"
+              className="portCard"
+            >
+              <div className="portCardImg">
+                <img src={korex} alt="portfolio" />
+              </div>
+              <div className="portCardContent">
+                <h4>korexrus.ru</h4>
+                <span>Daha ətraflı</span>
               </div>
             </a>
           </div>
