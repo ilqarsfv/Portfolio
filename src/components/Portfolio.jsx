@@ -7,6 +7,7 @@ import amazontravel from "../../public/images/amazontravel.png";
 import integro from "../../public/images/integro.png";
 import dayun from "../../public/images/dayun.png";
 import silo from "../../public/images/silo.png";
+import korex from "../../public/images/korex.png";
 import Container from "@mui/material/Container";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
