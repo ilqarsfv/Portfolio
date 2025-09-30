@@ -12,6 +12,8 @@ import neo from "../../public/images/neo.png";
 import autopodzakaz from "../../public/images/autopodzakaz.png";
 import connect from "../../public/images/connect.png";
 import tekeralemi from "../../public/images/tekeralemi.png";
+import gunesli from "../../public/images/gunesli.png";
+import techprom from "../../public/images/techprom.png";
 import Container from "@mui/material/Container";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -205,6 +207,32 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>tekeralemi.az</h4>
+                <span>Daha ətraflı</span>
+              </div>
+            </a>
+            <a
+              href="https://guneshlipark.az/"
+              target="_blank"
+              className="portCard"
+            >
+              <div className="portCardImg">
+                <img src={gunesli} alt="portfolio" />
+              </div>
+              <div className="portCardContent">
+                <h4>guneshlipark.az</h4>
+                <span>Daha ətraflı</span>
+              </div>
+            </a>
+            <a
+              href="https://techprom.site/"
+              target="_blank"
+              className="portCard"
+            >
+              <div className="portCardImg">
+                <img src={techprom} alt="portfolio" />
+              </div>
+              <div className="portCardContent">
+                <h4>techprom.site</h4>
                 <span>Daha ətraflı</span>
               </div>
             </a>
