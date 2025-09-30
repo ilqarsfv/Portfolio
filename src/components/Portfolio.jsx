@@ -11,6 +11,7 @@ import korex from "../../public/images/korex.png";
 import neo from "../../public/images/neo.png";
 import autopodzakaz from "../../public/images/autopodzakaz.png";
 import connect from "../../public/images/connect.png";
+import tekeralemi from "../../public/images/tekeralemi.png";
 import Container from "@mui/material/Container";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -191,6 +192,19 @@ function Portfolio() {
               </div>
               <div className="portCardContent">
                 <h4>connect.az</h4>
+                <span>Daha ətraflı</span>
+              </div>
+            </a>
+            <a
+              href="https://tekeralemi.az/"
+              target="_blank"
+              className="portCard"
+            >
+              <div className="portCardImg">
+                <img src={tekeralemi} alt="portfolio" />
+              </div>
+              <div className="portCardContent">
+                <h4>tekeralemi.az</h4>
                 <span>Daha ətraflı</span>
               </div>
             </a>
